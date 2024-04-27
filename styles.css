@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.gov {
+  background-color: #0066cd;
+  width: 100vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.gov-logo {
+  height: 14px;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 10vh;
+  background-color: #8f141b;
+}
+.logo-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  padding: 25px 15px;
+}
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 75px;
+  padding-left: 150px;
+}
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 50px;
+  width: 100%;
+}
+.navbar-ul li {
+  list-style: none;
+}
+.navbar-ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "poppins";
+}
